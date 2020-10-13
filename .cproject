@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+    	
+    <storageModule moduleId="org.eclipse.cdt.core.settings">
+        		
+        <cconfiguration id="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.1906152658">
+            			
+            <storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.1906152658" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+                				
+                <externalSettings/>
+                				
+                <extensions>
+                    					
+                    <extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    				
+                </extensions>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="cdtBuildSystem" version="4.0.0">
+                				
+                <configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="${cross_rm} -rf" description="" id="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.1906152658" name="Debug" optionalBuildProperties="" parent="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug">
+                    					
+                    <folderInfo id="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.1906152658." name="/" resourcePath="">
+                        						
+                        <toolChain id="ilg.gnuarmeclipse.managedbuild.cross.toolchain.elf.debug.966756682" name="ARM Cross GCC" superClass="ilg.gnuarmeclipse.managedbuild.cross.toolchain.elf.debug">
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createflash.1245667065" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createflash" value="true" valueType="boolean"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createlisting.1925203497" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createlisting"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.printsize.1569789279" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.printsize" value="true" valueType="boolean"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.level.1574008344" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.level" value="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.level.none" valueType="enumerated"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.messagelength.694922493" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.messagelength" value="true" valueType="boolean"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.signedchar.1467351888" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.signedchar" value="true" valueType="boolean"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.functionsections.34466411" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.functionsections" value="true" valueType="boolean"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.datasections.1551493534" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.datasections" value="true" valueType="boolean"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.level.1701790969" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.level" value="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.level.max" valueType="enumerated"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.format.1781967994" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.format"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.toolchain.name.551558422" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.toolchain.name" value="GNU Tools for ARM Embedded Processors" valueType="string"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.architecture.1607703869" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.architecture" value="ilg.gnuarmeclipse.managedbuild.cross.option.architecture.arm" valueType="enumerated"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.family.1141044675" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.family" value="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.mcpu.cortex-m7" valueType="enumerated"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.instructionset.1714840153" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.instructionset" value="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.instructionset.thumb" valueType="enumerated"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.prefix.1492771782" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.prefix" value="arm-none-eabi-" valueType="string"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.c.1034084190" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.c" value="gcc" valueType="string"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.cpp.1402937305" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.cpp" value="g++" valueType="string"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.ar.352478696" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.ar" value="ar" valueType="string"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.objcopy.268255489" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.objcopy" value="objcopy" valueType="string"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.objdump.1598534452" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.objdump" value="objdump" valueType="string"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.size.1993063939" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.size" value="size" valueType="string"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.make.781503929" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.make" value="make" valueType="string"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.rm.13044416" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.rm" value="rm" valueType="string"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.endianness.1364380777" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.endianness" value="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.endianness.little" valueType="enumerated"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.fpu.abi.1206539885" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.fpu.abi" value="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.fpu.abi.hard" valueType="enumerated"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.fpu.unit.262132171" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.fpu.unit" value="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.fpu.unit.fpv5spd16" valueType="enumerated"/>
+                            							
+                            <targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="ilg.gnuarmeclipse.managedbuild.cross.targetPlatform.1516280696" isAbstract="false" osList="all" superClass="ilg.gnuarmeclipse.managedbuild.cross.targetPlatform"/>
+                            							
+                            <builder buildPath="${workspace_loc:/007-f7-cmsis-uart-variable-length-rx}/Debug" id="ilg.gnuarmeclipse.managedbuild.cross.builder.626217311" managedBuildOn="true" name="Gnu Make Builder.Debug" superClass="ilg.gnuarmeclipse.managedbuild.cross.builder"/>
+                            							
+                            <tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.173459221" name="GNU ARM Cross Assembler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler">
+                                								
+                                <option id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.usepreprocessor.603902309" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.usepreprocessor" value="true" valueType="boolean"/>
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.defs.1035037366" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.defs" valueType="definedSymbols">
+                                    									
+                                    <listOptionValue builtIn="false" value="_RTE_"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="STM32F746xx"/>
+                                    								
+                                </option>
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.include.paths.768005997" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.include.paths" valueType="includePath">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include1&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/portable/GCC/ARM_CM7/r0p1&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS/5.7.0/CMSIS/RTOS2/Include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/Keil/STM32F7xx_DFP/2.13.0/Drivers/CMSIS/Device/ST/STM32F7xx/Include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE/RTOS&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.include.systempaths.1926889700" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.include.systempaths" valueType="includePath">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include1&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/portable/GCC/ARM_CM7/r0p1&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS/5.7.0/CMSIS/RTOS2/Include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/Keil/STM32F7xx_DFP/2.13.0/Drivers/CMSIS/Device/ST/STM32F7xx/Include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE/RTOS&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.input.210593243" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.input"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.586320187" name="GNU ARM Cross C Compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler">
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.defs.390993002" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.defs" useByScannerDiscovery="true" valueType="definedSymbols">
+                                    									
+                                    <listOptionValue builtIn="false" value="_RTE_"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="STM32F746xx"/>
+                                    								
+                                </option>
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.include.paths.1688817866" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.include.paths" useByScannerDiscovery="true" valueType="includePath">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include1&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/portable/GCC/ARM_CM7/r0p1&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS/5.7.0/CMSIS/RTOS2/Include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/Keil/STM32F7xx_DFP/2.13.0/Drivers/CMSIS/Device/ST/STM32F7xx/Include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE/RTOS&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.include.systempaths.1967208118" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.include.systempaths" useByScannerDiscovery="true" valueType="includePath">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include1&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/portable/GCC/ARM_CM7/r0p1&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS/5.7.0/CMSIS/RTOS2/Include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/Keil/STM32F7xx_DFP/2.13.0/Drivers/CMSIS/Device/ST/STM32F7xx/Include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE/RTOS&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input.2028819524" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.2013313260" name="GNU ARM Cross C++ Compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler">
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.defs.1681265421" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.defs" useByScannerDiscovery="true" valueType="definedSymbols">
+                                    									
+                                    <listOptionValue builtIn="false" value="_RTE_"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="STM32F746xx"/>
+                                    								
+                                </option>
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.include.paths.252664231" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.include.paths" useByScannerDiscovery="true" valueType="includePath">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include1&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/portable/GCC/ARM_CM7/r0p1&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS/5.7.0/CMSIS/RTOS2/Include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/Keil/STM32F7xx_DFP/2.13.0/Drivers/CMSIS/Device/ST/STM32F7xx/Include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE/RTOS&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.include.systempaths.667761372" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.include.systempaths" useByScannerDiscovery="true" valueType="includePath">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include1&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/portable/GCC/ARM_CM7/r0p1&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS/5.7.0/CMSIS/RTOS2/Include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/Keil/STM32F7xx_DFP/2.13.0/Drivers/CMSIS/Device/ST/STM32F7xx/Include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE/RTOS&quot;"/>
+                                    								
+                                </option>
+                                							
+                            </tool>
+                            							
+                            <tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker.1652623647" name="GNU ARM Cross C Linker" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker">
+                                								
+                                <option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.gcsections.1263375996" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.gcsections" value="true" valueType="boolean"/>
+                                								
+                                <inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker.input.1474382544" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker.input">
+                                    									
+                                    <additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+                                    									
+                                    <additionalInput kind="additionalinput" paths="$(LIBS)"/>
+                                    								
+                                </inputType>
+                                							
+                            </tool>
+                            							
+                            <tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.linker.99251230" name="GNU ARM Cross C++ Linker" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.linker">
+                                								
+                                <option id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.linker.gcsections.1876823762" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.linker.gcsections" value="true" valueType="boolean"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.archiver.635617143" name="GNU ARM Cross Archiver" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.archiver"/>
+                            							
+                            <tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.createflash.135827744" name="GNU ARM Cross Create Flash Image" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.createflash"/>
+                            							
+                            <tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.createlisting.1451134369" name="GNU ARM Cross Create Listing" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.createlisting">
+                                								
+                                <option id="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.source.384129876" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.source" value="true" valueType="boolean"/>
+                                								
+                                <option id="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.allheaders.77879294" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.allheaders" value="true" valueType="boolean"/>
+                                								
+                                <option id="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.demangle.1885663478" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.demangle" value="true" valueType="boolean"/>
+                                								
+                                <option id="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.linenumbers.182383694" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.linenumbers" value="true" valueType="boolean"/>
+                                								
+                                <option id="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.wide.663703992" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.wide" value="true" valueType="boolean"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.printsize.1026827879" name="GNU ARM Cross Print Size" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.printsize">
+                                								
+                                <option id="ilg.gnuarmeclipse.managedbuild.cross.option.printsize.format.1924190389" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.printsize.format"/>
+                                							
+                            </tool>
+                            						
+                        </toolChain>
+                        					
+                    </folderInfo>
+                    				
+                </configuration>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+            		
+        </cconfiguration>
+        		
+        <cconfiguration id="ilg.gnuarmeclipse.managedbuild.cross.config.elf.release.559643716">
+            			
+            <storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="ilg.gnuarmeclipse.managedbuild.cross.config.elf.release.559643716" moduleId="org.eclipse.cdt.core.settings" name="Release">
+                				
+                <externalSettings/>
+                				
+                <extensions>
+                    					
+                    <extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    				
+                </extensions>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="cdtBuildSystem" version="4.0.0">
+                				
+                <configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" cleanCommand="${cross_rm} -rf" description="" id="ilg.gnuarmeclipse.managedbuild.cross.config.elf.release.559643716" name="Release" optionalBuildProperties="" parent="ilg.gnuarmeclipse.managedbuild.cross.config.elf.release">
+                    					
+                    <folderInfo id="ilg.gnuarmeclipse.managedbuild.cross.config.elf.release.559643716." name="/" resourcePath="">
+                        						
+                        <toolChain id="ilg.gnuarmeclipse.managedbuild.cross.toolchain.elf.release.1523158087" name="ARM Cross GCC" superClass="ilg.gnuarmeclipse.managedbuild.cross.toolchain.elf.release">
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createflash.1859432289" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createflash" value="true" valueType="boolean"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createlisting.963619481" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createlisting"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.printsize.620481944" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.printsize" value="true" valueType="boolean"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.level.2123947175" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.level" value="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.level.size" valueType="enumerated"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.messagelength.1692240311" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.messagelength" value="true" valueType="boolean"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.signedchar.12694672" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.signedchar" value="true" valueType="boolean"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.functionsections.1230710030" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.functionsections" value="true" valueType="boolean"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.datasections.808664316" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.datasections" value="true" valueType="boolean"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.level.650037105" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.level"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.format.247506598" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.format"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.toolchain.name.1613907278" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.toolchain.name" value="GNU Tools for ARM Embedded Processors" valueType="string"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.architecture.1262544868" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.architecture" value="ilg.gnuarmeclipse.managedbuild.cross.option.architecture.arm" valueType="enumerated"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.family.1753186031" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.family" value="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.mcpu.cortex-m7" valueType="enumerated"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.instructionset.1976111537" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.instructionset" value="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.instructionset.thumb" valueType="enumerated"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.prefix.1447157104" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.prefix" value="arm-none-eabi-" valueType="string"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.c.1635882840" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.c" value="gcc" valueType="string"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.cpp.1097146637" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.cpp" value="g++" valueType="string"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.ar.147230398" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.ar" value="ar" valueType="string"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.objcopy.343466818" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.objcopy" value="objcopy" valueType="string"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.objdump.1016752323" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.objdump" value="objdump" valueType="string"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.size.1140173086" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.size" value="size" valueType="string"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.make.1202199773" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.make" value="make" valueType="string"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.rm.675086778" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.rm" value="rm" valueType="string"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.endianness.997430298" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.endianness" value="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.endianness.little" valueType="enumerated"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.fpu.abi.1432864020" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.fpu.abi" value="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.fpu.abi.hard" valueType="enumerated"/>
+                            							
+                            <option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.fpu.unit.1945198900" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.fpu.unit" value="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.fpu.unit.fpv5spd16" valueType="enumerated"/>
+                            							
+                            <targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="ilg.gnuarmeclipse.managedbuild.cross.targetPlatform.948523394" isAbstract="false" osList="all" superClass="ilg.gnuarmeclipse.managedbuild.cross.targetPlatform"/>
+                            							
+                            <builder buildPath="${workspace_loc:/007-f7-cmsis-uart-variable-length-rx}/Release" id="ilg.gnuarmeclipse.managedbuild.cross.builder.863154732" managedBuildOn="true" name="Gnu Make Builder.Release" superClass="ilg.gnuarmeclipse.managedbuild.cross.builder"/>
+                            							
+                            <tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.1835070197" name="GNU ARM Cross Assembler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler">
+                                								
+                                <option id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.usepreprocessor.534294732" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.usepreprocessor" value="true" valueType="boolean"/>
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.defs.2026227774" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.defs" valueType="definedSymbols">
+                                    									
+                                    <listOptionValue builtIn="false" value="_RTE_"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="STM32F746xx"/>
+                                    								
+                                </option>
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.include.paths.480070633" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.include.paths" valueType="includePath">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include1&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/portable/GCC/ARM_CM7/r0p1&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS/5.7.0/CMSIS/RTOS2/Include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/Keil/STM32F7xx_DFP/2.13.0/Drivers/CMSIS/Device/ST/STM32F7xx/Include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE/RTOS&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.include.systempaths.339935098" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.include.systempaths" valueType="includePath">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include1&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/portable/GCC/ARM_CM7/r0p1&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS/5.7.0/CMSIS/RTOS2/Include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/Keil/STM32F7xx_DFP/2.13.0/Drivers/CMSIS/Device/ST/STM32F7xx/Include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE/RTOS&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.input.10877371" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.input"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.1508384443" name="GNU ARM Cross C Compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler">
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.defs.643516213" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.defs" useByScannerDiscovery="true" valueType="definedSymbols">
+                                    									
+                                    <listOptionValue builtIn="false" value="_RTE_"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="STM32F746xx"/>
+                                    								
+                                </option>
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.include.paths.15207496" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.include.paths" useByScannerDiscovery="true" valueType="includePath">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include1&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/portable/GCC/ARM_CM7/r0p1&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS/5.7.0/CMSIS/RTOS2/Include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/Keil/STM32F7xx_DFP/2.13.0/Drivers/CMSIS/Device/ST/STM32F7xx/Include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE/RTOS&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.include.systempaths.1874821669" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.include.systempaths" useByScannerDiscovery="true" valueType="includePath">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include1&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/portable/GCC/ARM_CM7/r0p1&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS/5.7.0/CMSIS/RTOS2/Include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/Keil/STM32F7xx_DFP/2.13.0/Drivers/CMSIS/Device/ST/STM32F7xx/Include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE/RTOS&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input.693601146" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.1828960635" name="GNU ARM Cross C++ Compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler">
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.defs.460345245" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.defs" useByScannerDiscovery="true" valueType="definedSymbols">
+                                    									
+                                    <listOptionValue builtIn="false" value="_RTE_"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="STM32F746xx"/>
+                                    								
+                                </option>
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.include.paths.2074306737" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.include.paths" useByScannerDiscovery="true" valueType="includePath">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include1&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/portable/GCC/ARM_CM7/r0p1&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS/5.7.0/CMSIS/RTOS2/Include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/Keil/STM32F7xx_DFP/2.13.0/Drivers/CMSIS/Device/ST/STM32F7xx/Include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE/RTOS&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.include.systempaths.309395888" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.include.systempaths" useByScannerDiscovery="true" valueType="includePath">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include1&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/portable/GCC/ARM_CM7/r0p1&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS/5.7.0/CMSIS/RTOS2/Include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/Keil/STM32F7xx_DFP/2.13.0/Drivers/CMSIS/Device/ST/STM32F7xx/Include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE/RTOS&quot;"/>
+                                    								
+                                </option>
+                                							
+                            </tool>
+                            							
+                            <tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker.702563725" name="GNU ARM Cross C Linker" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker">
+                                								
+                                <option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.gcsections.1923344563" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.gcsections" value="true" valueType="boolean"/>
+                                								
+                                <inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker.input.304259337" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker.input">
+                                    									
+                                    <additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+                                    									
+                                    <additionalInput kind="additionalinput" paths="$(LIBS)"/>
+                                    								
+                                </inputType>
+                                							
+                            </tool>
+                            							
+                            <tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.linker.1931033051" name="GNU ARM Cross C++ Linker" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.linker">
+                                								
+                                <option id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.linker.gcsections.193796505" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.linker.gcsections" value="true" valueType="boolean"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.archiver.649794756" name="GNU ARM Cross Archiver" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.archiver"/>
+                            							
+                            <tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.createflash.566776071" name="GNU ARM Cross Create Flash Image" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.createflash"/>
+                            							
+                            <tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.createlisting.1502619413" name="GNU ARM Cross Create Listing" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.createlisting">
+                                								
+                                <option id="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.source.807976749" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.source" value="true" valueType="boolean"/>
+                                								
+                                <option id="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.allheaders.160747801" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.allheaders" value="true" valueType="boolean"/>
+                                								
+                                <option id="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.demangle.1406181070" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.demangle" value="true" valueType="boolean"/>
+                                								
+                                <option id="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.linenumbers.28570356" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.linenumbers" value="true" valueType="boolean"/>
+                                								
+                                <option id="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.wide.346065294" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.wide" value="true" valueType="boolean"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.printsize.1966066957" name="GNU ARM Cross Print Size" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.printsize">
+                                								
+                                <option id="ilg.gnuarmeclipse.managedbuild.cross.option.printsize.format.1959602806" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.printsize.format"/>
+                                							
+                            </tool>
+                            						
+                        </toolChain>
+                        					
+                    </folderInfo>
+                    				
+                </configuration>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+            		
+        </cconfiguration>
+        	
+    </storageModule>
+    	
+    <storageModule moduleId="cdtBuildSystem" version="4.0.0">
+        		
+        <project id="007-f7-cmsis-uart-variable-length-rx.ilg.gnuarmeclipse.managedbuild.cross.target.elf.1585471482" name="Executable" projectType="ilg.gnuarmeclipse.managedbuild.cross.target.elf"/>
+        	
+    </storageModule>
+    	
+    <storageModule moduleId="scannerConfiguration">
+        		
+        <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+        		
+        <scannerConfigBuildInfo instanceId="ilg.gnuarmeclipse.managedbuild.cross.config.elf.release.559643716;ilg.gnuarmeclipse.managedbuild.cross.config.elf.release.559643716.;ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.1508384443;ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input.693601146">
+            			
+            <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+            		
+        </scannerConfigBuildInfo>
+        		
+        <scannerConfigBuildInfo instanceId="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.1906152658;ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.1906152658.;ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.586320187;ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input.2028819524">
+            			
+            <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+            		
+        </scannerConfigBuildInfo>
+        	
+    </storageModule>
+    	
+    <storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+    	
+    <storageModule moduleId="com.arm.cmsis.project">
+        		
+        <rteConfig name="007-f7-cmsis-uart-variable-length-rx.rteconfig"/>
+        		
+        <toolChainAdapter id="com.arm.cmsis.pack.build.gnuarmeclipse.toolChainAdapter" name="Cross ARM GCC Toolchain Adapter"/>
+        		
+        <device Dclock="216000000" Dcore="Cortex-M7" DcoreVersion="r0p1" Dendian="Little-endian" Dfamily="STM32F7 Series" Dfpu="SP_FPU" Dmpu="MPU" Dname="STM32F746ZG" DsubFamily="STM32F746" Dvariant="STM32F746ZGTx" Dvendor="STMicroelectronics:13" info="ARM , 320 KB RAM, 2 MB ROM" url="https://www.keil.com/dd2/st/stm32f746zgtx"/>
+        		
+        <files>
+            			
+            <file name="RTE/RTOS/FreeRTOSConfig.h" version="10.2.0"/>
+            			
+            <file name="RTE/Device/STM32F746ZGTx/startup_stm32f746xx.S" version="1.2.2"/>
+            			
+            <file name="RTE/STM32F74x_75x.dbgconf" version="2.0.0"/>
+            			
+            <file name="RTE/Device/STM32F746ZGTx/system_stm32f7xx.c" version="1.2.2"/>
+            		
+        </files>
+        	
+    </storageModule>
+    
+</cproject>
