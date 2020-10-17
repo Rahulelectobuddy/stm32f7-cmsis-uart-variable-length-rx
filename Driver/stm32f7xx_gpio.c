@@ -5,6 +5,7 @@
  *      Author: RahulGarg
  */
 
+#include <stdbool.h>
 #include "stm32f746xx.h"
 
 /*
@@ -43,6 +44,7 @@ void init_gpio(void)
 {
 	RCC_TypeDef *pRCC = RCC;
 	pRCC->AHB1ENR |= RCC_AHB1ENR_GPIOBEN;
+	pRCC->AHB1ENR |= RCC_AHB1ENR_GPIOCEN;
 
 	GPIO_TypeDef *pGPIO_Handle = GPIOB;
 	pGPIO_Handle->MODER = GPIO_MODER_MODER0_0|GPIO_MODER_MODER7_0|GPIO_MODER_MODER14_0;
@@ -57,4 +59,14 @@ void gpio_toggle(GPIO_TypeDef *gpioPort, uint32_t gpioPin)
 	temp = pGPIO_Handle->IDR;
 	temp ^= (1 << gpioPin);
 	pGPIO_Handle->ODR = temp;
+}
+
+bool gpio_read(GPIO_TypeDef *gpioPort, uint32_t gpioPin){
+	uint32_t temp;
+	GPIO_TypeDef *pGPIO_Handle;
+	pGPIO_Handle = gpioPort;
+	temp = pGPIO_Handle->IDR;
+	if(temp & (1 << gpioPin))
+		return true;
+	return false;
 }
