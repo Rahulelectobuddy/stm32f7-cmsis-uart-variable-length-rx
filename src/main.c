@@ -9,5 +9,9 @@
 
 int main()
 {
+	init_uart();
+	while(1){
+
+	}
 	return 0;
 }
