@@ -5,6 +5,8 @@
  *      Author: RahulGarg
  */
 
+#include "stm32f746xx.h"
+
 /*
  * @brief :
  *
@@ -32,6 +34,14 @@
  */
 void init_uart(void){
 
+	RCC_TypeDef *pRCC_Handle = RCC;
+	pRCC_Handle->APB1ENR |= RCC_APB1ENR_USART2EN;
+
+	USART_TypeDef *pUSART_Handle;
+	pUSART_Handle = USART2;
+	pUSART_Handle->BRR |= 0x8B ;
+	pUSART_Handle->CR1 |= USART_CR1_TE;
+	pUSART_Handle->CR1 |= USART_CR1_UE;
 	return;
 }
 
