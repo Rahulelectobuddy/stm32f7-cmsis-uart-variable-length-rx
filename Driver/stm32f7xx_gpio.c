@@ -65,6 +65,17 @@ void init_gpio(void)
 	return;
 }
 
+
+/*
+ * @brief :
+ *
+ * @note :
+ *
+ * @parameter :
+ *
+ * @return :
+ *
+ */
 void gpio_toggle(GPIO_TypeDef *gpioPort, uint32_t gpioPin)
 {
 	uint32_t temp;
@@ -75,6 +86,16 @@ void gpio_toggle(GPIO_TypeDef *gpioPort, uint32_t gpioPin)
 	pGPIO_Handle->ODR = temp;
 }
 
+/*
+ * @brief :
+ *
+ * @note :
+ *
+ * @parameter :
+ *
+ * @return :
+ *
+ */
 bool gpio_read(GPIO_TypeDef *gpioPort, uint32_t gpioPin){
 	uint32_t temp;
 	GPIO_TypeDef *pGPIO_Handle;
