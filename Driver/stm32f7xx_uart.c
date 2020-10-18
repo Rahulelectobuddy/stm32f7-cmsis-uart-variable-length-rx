@@ -41,6 +41,7 @@ void init_uart(void){
 	pUSART_Handle = USART2;
 	pUSART_Handle->BRR |= 0x8B ;
 	pUSART_Handle->CR1 |= USART_CR1_TE;
+	pUSART_Handle->CR1 |= USART_CR1_RE;
 	pUSART_Handle->CR1 |= USART_CR1_UE;
 	return;
 }
