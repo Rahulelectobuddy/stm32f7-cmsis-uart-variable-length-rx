@@ -29,7 +29,7 @@
             			
             <storageModule moduleId="cdtBuildSystem" version="4.0.0">
                 				
-                <configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="${cross_rm} -rf" description="" id="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.1906152658" name="Debug" optionalBuildProperties="org.eclipse.cdt.docker.launcher.containerbuild.property.selectedvolumes=,org.eclipse.cdt.docker.launcher.containerbuild.property.volumes=" parent="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug">
+                <configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="${cross_rm} -rf" description="" id="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.1906152658" name="Debug" optionalBuildProperties="org.eclipse.cdt.docker.launcher.containerbuild.property.volumes=,org.eclipse.cdt.docker.launcher.containerbuild.property.selectedvolumes=" parent="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug">
                     					
                     <folderInfo id="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.1906152658." name="/" resourcePath="">
                         						
@@ -107,45 +107,21 @@
                                 								
                                 <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.include.paths.768005997" name="Include paths (-I)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.include.paths" valueType="includePath">
                                     									
-                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include1&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/include&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/portable/GCC/ARM_CM7/r0p1&quot;"/>
-                                    									
                                     <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS/5.7.0/CMSIS/RTOS2/Include&quot;"/>
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/Keil/STM32F7xx_DFP/2.13.0/Drivers/CMSIS/Device/ST/STM32F7xx/Include&quot;"/>
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE/RTOS&quot;"/>
                                     								
                                 </option>
                                 								
                                 <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.include.systempaths.1926889700" name="Include system paths (-isystem)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.include.systempaths" valueType="includePath">
                                     									
-                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include1&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/include&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/portable/GCC/ARM_CM7/r0p1&quot;"/>
-                                    									
                                     <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS/5.7.0/CMSIS/RTOS2/Include&quot;"/>
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/Keil/STM32F7xx_DFP/2.13.0/Drivers/CMSIS/Device/ST/STM32F7xx/Include&quot;"/>
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE/RTOS&quot;"/>
                                     								
                                 </option>
                                 								
@@ -165,45 +141,21 @@
                                 								
                                 <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.include.paths.1688817866" name="Include paths (-I)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.include.paths" useByScannerDiscovery="true" valueType="includePath">
                                     									
-                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include1&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/include&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/portable/GCC/ARM_CM7/r0p1&quot;"/>
-                                    									
                                     <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS/5.7.0/CMSIS/RTOS2/Include&quot;"/>
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/Keil/STM32F7xx_DFP/2.13.0/Drivers/CMSIS/Device/ST/STM32F7xx/Include&quot;"/>
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE/RTOS&quot;"/>
                                     								
                                 </option>
                                 								
                                 <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.include.systempaths.1967208118" name="Include system paths (-isystem)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.include.systempaths" useByScannerDiscovery="true" valueType="includePath">
                                     									
-                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include1&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/include&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/portable/GCC/ARM_CM7/r0p1&quot;"/>
-                                    									
                                     <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS/5.7.0/CMSIS/RTOS2/Include&quot;"/>
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/Keil/STM32F7xx_DFP/2.13.0/Drivers/CMSIS/Device/ST/STM32F7xx/Include&quot;"/>
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE/RTOS&quot;"/>
                                     								
                                 </option>
                                 								
@@ -223,45 +175,21 @@
                                 								
                                 <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.include.paths.252664231" name="Include paths (-I)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.include.paths" useByScannerDiscovery="true" valueType="includePath">
                                     									
-                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include1&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/include&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/portable/GCC/ARM_CM7/r0p1&quot;"/>
-                                    									
                                     <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS/5.7.0/CMSIS/RTOS2/Include&quot;"/>
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/Keil/STM32F7xx_DFP/2.13.0/Drivers/CMSIS/Device/ST/STM32F7xx/Include&quot;"/>
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE/RTOS&quot;"/>
                                     								
                                 </option>
                                 								
                                 <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.include.systempaths.667761372" name="Include system paths (-isystem)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.include.systempaths" useByScannerDiscovery="true" valueType="includePath">
                                     									
-                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include1&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/include&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/portable/GCC/ARM_CM7/r0p1&quot;"/>
-                                    									
                                     <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS/5.7.0/CMSIS/RTOS2/Include&quot;"/>
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/Keil/STM32F7xx_DFP/2.13.0/Drivers/CMSIS/Device/ST/STM32F7xx/Include&quot;"/>
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE/RTOS&quot;"/>
                                     								
                                 </option>
                                 							
@@ -329,9 +257,9 @@
                     					
                     <sourceEntries>
                         						
-                        <entry excluding="src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
-                        						
                         <entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+                        						
+                        <entry excluding="RTE/RTOS/FreeRTOSConfig.h|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
                         					
                     </sourceEntries>
                     				
@@ -477,45 +405,21 @@
                                 								
                                 <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.include.paths.480070633" name="Include paths (-I)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.include.paths" valueType="includePath">
                                     									
-                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include1&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/include&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/portable/GCC/ARM_CM7/r0p1&quot;"/>
-                                    									
                                     <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS/5.7.0/CMSIS/RTOS2/Include&quot;"/>
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/Keil/STM32F7xx_DFP/2.13.0/Drivers/CMSIS/Device/ST/STM32F7xx/Include&quot;"/>
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE/RTOS&quot;"/>
                                     								
                                 </option>
                                 								
                                 <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.include.systempaths.339935098" name="Include system paths (-isystem)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.include.systempaths" valueType="includePath">
                                     									
-                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include1&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/include&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/portable/GCC/ARM_CM7/r0p1&quot;"/>
-                                    									
                                     <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS/5.7.0/CMSIS/RTOS2/Include&quot;"/>
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/Keil/STM32F7xx_DFP/2.13.0/Drivers/CMSIS/Device/ST/STM32F7xx/Include&quot;"/>
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE/RTOS&quot;"/>
                                     								
                                 </option>
                                 								
@@ -535,45 +439,21 @@
                                 								
                                 <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.include.paths.15207496" name="Include paths (-I)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.include.paths" useByScannerDiscovery="true" valueType="includePath">
                                     									
-                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include1&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/include&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/portable/GCC/ARM_CM7/r0p1&quot;"/>
-                                    									
                                     <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS/5.7.0/CMSIS/RTOS2/Include&quot;"/>
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/Keil/STM32F7xx_DFP/2.13.0/Drivers/CMSIS/Device/ST/STM32F7xx/Include&quot;"/>
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE/RTOS&quot;"/>
                                     								
                                 </option>
                                 								
                                 <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.include.systempaths.1874821669" name="Include system paths (-isystem)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.include.systempaths" useByScannerDiscovery="true" valueType="includePath">
                                     									
-                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include1&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/include&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/portable/GCC/ARM_CM7/r0p1&quot;"/>
-                                    									
                                     <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS/5.7.0/CMSIS/RTOS2/Include&quot;"/>
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/Keil/STM32F7xx_DFP/2.13.0/Drivers/CMSIS/Device/ST/STM32F7xx/Include&quot;"/>
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE/RTOS&quot;"/>
                                     								
                                 </option>
                                 								
@@ -593,45 +473,21 @@
                                 								
                                 <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.include.paths.2074306737" name="Include paths (-I)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.include.paths" useByScannerDiscovery="true" valueType="includePath">
                                     									
-                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include1&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/include&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/portable/GCC/ARM_CM7/r0p1&quot;"/>
-                                    									
                                     <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS/5.7.0/CMSIS/RTOS2/Include&quot;"/>
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/Keil/STM32F7xx_DFP/2.13.0/Drivers/CMSIS/Device/ST/STM32F7xx/Include&quot;"/>
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE/RTOS&quot;"/>
                                     								
                                 </option>
                                 								
                                 <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.include.systempaths.309395888" name="Include system paths (-isystem)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.include.systempaths" useByScannerDiscovery="true" valueType="includePath">
                                     									
-                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include1&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/include&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/portable/GCC/ARM_CM7/r0p1&quot;"/>
-                                    									
                                     <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/ARM/CMSIS/5.7.0/CMSIS/RTOS2/Include&quot;"/>
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${cmsis_rte}C:/Users/RahulGarg/AppData/Roaming/CMSIS-Packs/Keil/STM32F7xx_DFP/2.13.0/Drivers/CMSIS/Device/ST/STM32F7xx/Include&quot;"/>
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}/RTE/RTOS&quot;"/>
                                     								
                                 </option>
                                 							
