@@ -5,6 +5,16 @@
  *      Author: RahulGarg
  */
 
+/*
+ * Reference STM32 Nucleo-144 boards User Manual
+ * Connector - C9
+ *  +------------+-------------+-----------+
+ *  | Pin Number | Signal name | STM32 Pin |
+ *  |			4 		 | USART_B_RX  | 		 PD6	 |
+ *  | 		6 		 | USART_B_RX	 | 		 PD5	 |
+ *  +------------+-------------+-----------+
+ */
+
 #include <stdio.h>
 #include <stdint.h>
 #include <string.h>
