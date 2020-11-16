@@ -6,9 +6,7 @@
  */
 
 #include "stm32f746xx.h"
-
-extern char global_buff[10];
-extern char rx_buff[10];
+#include "main.h"
 
 void EXTI15_10_IRQHandler(void){
 
@@ -30,10 +28,10 @@ void USART2_IRQHandler(void){
 //	itr2=itr1;
 	if( pUSART_Handle->ISR & USART_ISR_IDLE){
 		pUSART_Handle->ICR |= USART_ICR_IDLECF;
-		while( itr2 != ( 10 - pDMA_Stream->NDTR ) ){
+		while( itr2 != ( MAX_UART_RX - pDMA_Stream->NDTR ) ){
 			rx_buff[itr1] = global_buff[itr2];
 			itr2++;
-			if(itr2 == 10)
+			if(itr2 == MAX_UART_RX)
 				itr2=0;
 			itr1++;
 		}

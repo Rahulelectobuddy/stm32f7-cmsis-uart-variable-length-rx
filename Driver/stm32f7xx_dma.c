@@ -5,7 +5,6 @@
  *      Author: RahulGarg
  */
 
-
 /*
  * How to use this driver
  *	1. Enable the DMA peripheral clock.
@@ -49,8 +48,7 @@
  */
 
 #include "stm32f746xx.h"
-
-extern char global_buff[10];
+#include "main.h"
 
 void init_dma(void)
 {
@@ -70,7 +68,7 @@ void init_dma(void)
 	pDMA_Stream->PAR = 0x40004424;//(uint32_t) pUSART_Handle->RDR;
 	pDMA_Stream->M0AR = global_buff;
 	pDMA_Stream->CR |= DMA_SxCR_MINC;
-	pDMA_Stream->NDTR = 10;
+	pDMA_Stream->NDTR = MAX_UART_RX;
 //	Direction is default to memory to peripheral
 //	Size of memory and peripheral are default to 8 bits
 	pDMA_Stream->FCR |= DMA_SxFCR_FTH_Msk;

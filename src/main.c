@@ -19,11 +19,7 @@
 #include <stdint.h>
 #include <string.h>
 #include "stm32f746xx.h"
-
-#define MAX_UART_RX (100)
-
-char global_buff[10];
-char rx_buff[10];
+#include "main.h"
 
 void uart_tx(char *data){
 	uint8_t var;
