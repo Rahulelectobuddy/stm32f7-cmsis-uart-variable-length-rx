@@ -40,10 +40,14 @@ void init_uart(void){
 	USART_TypeDef *pUSART_Handle;
 	pUSART_Handle = USART2;
 	pUSART_Handle->BRR |= 0x8B ;
+	pUSART_Handle->CR3 |= USART_CR3_DMAR;
+	pUSART_Handle->CR1 |= USART_CR1_IDLEIE;
 	pUSART_Handle->CR1 |= USART_CR1_TE;
 	pUSART_Handle->CR1 |= USART_CR1_RE;
 	pUSART_Handle->CR1 |= USART_CR1_UE;
-	pUSART_Handle->CR3 |= USART_CR3_DMAR;
+
+	NVIC_EnableIRQ(USART2_IRQn);
+
 	return;
 }
 

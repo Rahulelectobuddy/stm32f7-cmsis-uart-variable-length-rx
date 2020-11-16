@@ -7,6 +7,8 @@
 
 #include "stm32f746xx.h"
 
+extern char global_buff[10];
+
 void EXTI15_10_IRQHandler(void){
 
 	EXTI_TypeDef *pEXTI = EXTI;
@@ -14,5 +16,15 @@ void EXTI15_10_IRQHandler(void){
 
 	gpio_toggle(GPIOB,7);
 
+	return;
+}
+
+void USART2_IRQHandler(void){
+	USART_TypeDef *pUSART_Handle;
+	pUSART_Handle = USART2;
+	if( pUSART_Handle->ISR & USART_ISR_IDLE){
+		uart_tx(global_buff);
+		pUSART_Handle->ICR |= USART_ICR_IDLECF;
+	}
 	return;
 }

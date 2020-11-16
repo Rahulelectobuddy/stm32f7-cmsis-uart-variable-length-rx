@@ -57,7 +57,6 @@ int main()
 	init_uart();
 	init_dma();
 	while(1){
-		uart_tx(global_buff);
 		for(itr1 = 0; itr1 < 10000; itr1++)
 			for( itr2 = 0; itr2 < 1000; itr2++ );
 	}
