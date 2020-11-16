@@ -23,6 +23,7 @@
 #define MAX_UART_RX (100)
 
 char global_buff[10];
+char rx_buff[10];
 
 void uart_tx(char *data){
 	uint8_t var;
